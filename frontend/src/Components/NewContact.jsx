@@ -8,7 +8,7 @@ function NewContact() {
   const navigate = useNavigate();
   const handleAdd = () => {
     axios
-      .post("https://contact-app-yj7a.onrender.com/api/contacts/", {
+      .post("https://contact-app-z4y4.onrender.com/api/contacts/", {
         name: name,
         email: email,
         phone: phone,

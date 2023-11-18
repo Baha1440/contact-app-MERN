@@ -18,14 +18,14 @@ function Contacts() {
   };
   const handleDelete = (id) => {
     axios
-      .delete("https://contact-app-yj7a.onrender.com/api/contacts/" + id)
+      .delete("https://contact-app-z4y4.onrender.com/api/contacts/" + id)
       .then((res) => {
         setContacts(res.data);
       });
   };
   useEffect(() => {
     axios
-      .get("https://contact-app-yj7a.onrender.com/api/contacts")
+      .get("https://contact-app-z4y4.onrender.com/api/contacts")
       .then((res) => {
         setContacts(res.data);
       });
